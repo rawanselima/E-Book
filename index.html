@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="books.css" />
+    <title>E-Books</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/white-logo.svg" alt="" />
+      </div>
+      <div class="links">
+        <div class="numbers">
+          <div class="box">
+            <div class="box">
+              <i class="fa-solid fa-phone"></i>
+              20+ 01060661936
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-envelope"></i>
+              rawanselima2@gmail.com
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-clock"></i>
+              Sunday - Fri: 9 aM - 6 pM
+            </div>
+          </div>
+          <div class="login"><i class="fa-solid fa-user"></i> Login</div>
+        </div>
+        <div class="pages">
+          <div class="uls">
+            <ul>
+              <li class="home">
+                Home <i class="fa-solid fa-caret-down"></i>
+                <div class="home-drowbdown drowbdown">
+                  <ul>
+                    <li>Home 01</li>
+                    <li>Home 02</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="shop">
+                Shop <i class="fa-solid fa-caret-down"></i>
+                <div class="shop-drowbdown drowbdown">
+                  <ul>
+                    <li>Shop Default</li>
+                    <li>Shop List</li>
+                    <li>Shop Details</li>
+                    <li>Shop Cart</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="page">
+                Pages <i class="fa-solid fa-caret-down"></i>
+                <div class="page-drowbdown drowbdown">
+                  <ul>
+                    <li>Page Default</li>
+                    <li>Page List</li>
+                    <li>Page Details</li>
+                    <li>Page Cart</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="blog">
+                Blog <i class="fa-solid fa-caret-down"></i>
+                <div class="blog-drowbdown drowbdown">
+                  <ul>
+                    <li>About</li>
+                    <li>Auther</li>
+                    <li>Error 404</li>
+                  </ul>
+                </div>
+              </li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-heart"></i>
+            <i
+              class="fa-solid fa-cart-shopping"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRightcart"
+              aria-controls="offcanvasRight"
+            ></i>
+            <i
+              class="fa-solid fa-chart-bar"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+            </i>
+          </div>
+        </div>
+      </div>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <img src="images/black-logo.svg" id="offcanvasRightLabel" />
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="content">
+            <p>
+              Nullam dignissim, ante scelerisque the is euismod fermentum odio
+              sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean
+              a imperdiet risus.
+            </p>
+          </div>
+          <div class="contact">
+            <p>Contact Us</p>
+            <ul>
+              <li><i class="fa-solid fa-location-dot"></i> Egypt , Cairo</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                rawanselima2@gmail.com
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i> Sunday - Fri: 9 aM - 6 pM
+              </li>
+              <li><i class="fa-solid fa-phone"></i> 20+ 01060661936</li>
+            </ul>
+            <div
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Get A Quote <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="social">
+              <a href="https://www.instagram.com/_rawan_mohamed98/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/profile.php?id=100006271535398"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/rawan-mohamed-bb87a0252/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="bars"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight1"
+        aria-controls="offcanvasRight"
+        style="border: none; background-color: transparent"
+      >
+        <i class="fa-solid fa-chart-bar fa-4x"></i>
+      </button>
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight1"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <img src="images/black-logo.svg" id="offcanvasRightLabel" />
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <p
+            class="detail"
+            data-bs-toggle="collapse"
+            href="#collapseExample"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Home
+            <i class="fa-solid fa-plus plus"></i>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>Home 01</p>
+              <p>Home 02</p>
+            </div>
+          </div>
+          <p
+            class="detail"
+            data-bs-toggle="collapse"
+            href="#collapseExample4"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Shop
+            <i class="fa-solid fa-plus plus"></i>
+          </p>
+          <div class="collapse" id="collapseExample4">
+            <div class="card card-body">
+              <p>Shop Default</p>
+              <p>Shop list</p>
+              <p>Shop Detail</p>
+              <p>Shop Cart</p>
+            </div>
+          </div>
+          <p
+            class="detail"
+            data-bs-toggle="collapse"
+            href="#collapseExample3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Pages
+            <i class="fa-solid fa-plus plus"></i>
+          </p>
+          <div class="collapse" id="collapseExample3">
+            <div class="card card-body">
+              <p>About</p>
+              <p>Auther</p>
+              <p>Error 404</p>
+            </div>
+          </div>
+          <p
+            class="detail"
+            data-bs-toggle="collapse"
+            href="#collapseExample1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Blog
+            <i class="fa-solid fa-plus plus"></i>
+          </p>
+          <div class="collapse" id="collapseExample1">
+            <div class="card card-body">
+              <p>Blog Default</p>
+              <p>Blog list</p>
+              <p>Blog Detail</p>
+              <p>Blog Cart</p>
+            </div>
+          </div>
+          <div class="content">
+            <p>
+              Nullam dignissim, ante scelerisque the is euismod fermentum odio
+              sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean
+              a imperdiet risus.
+            </p>
+          </div>
+          <div class="contact">
+            <p>Contact Us</p>
+            <ul>
+              <li><i class="fa-solid fa-location-dot"></i> Egypt , Cairo</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> rawanselima2@gmail.com
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i> Sunday - Fri: 9 aM - 6 pM
+              </li>
+              <li><i class="fa-solid fa-phone"></i> 20+ 01060661936</li>
+            </ul>
+            <div
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Get A Quote <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="social">
+              <a href="https://www.instagram.com/_rawan_mohamed98/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/profile.php?id=100006271535398"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/rawan-mohamed-bb87a0252/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-heart"></i>
+              <i
+                class="fa-solid fa-cart-shopping"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRightcart"
+                aria-controls="offcanvasRight"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="landing row">
+      <div class="content col-xl-6 col-md-12">
+        <p>Up To 30% Off</p>
+        <p class="title">Get Your New Book With The Best Price</p>
+        <div class="btn">Shop Now <i class="fa-solid fa-arrow-right"></i></div>
+        <img src="images/book.png" alt="" class="book" />
+        <img src="images/xstar.png" alt="" class="star" />
+        <img src="images/frame-2.png" alt="" class="frame-bottom" />
+      </div>
+      <div class="image col-xl-6 col-md-12">
+        <img src="images/bg-shape.png" alt="" class="circle" />
+        <img src="images/frame-2.png" alt="" class="frame-up" />
+        <img src="images/hero-girl.png" class="img-fluid girl" alt="" />
+        <img src="images/frame-shape.png" alt="" class="arrow" />
+      </div>
+    </div>
+
+    <div class="services row">
+      <div class="box col-xl-2 col-md-5 col-sm-10">
+        <div class="icon">
+          <i class="fa-solid fa-truck-moving fa-2x"></i>
+        </div>
+        <div class="data">
+          <p class="title">Return & refund</p>
+          <p>Money back guarantee</p>
+        </div>
+      </div>
+      <div class="box col-xl-2 col-md-5 col-sm-10">
+        <div class="icon">
+          <i class="fa-solid fa-user-shield fa-2x"></i>
+        </div>
+        <div class="data">
+          <p class="title">Secure Payment</p>
+          <p>30% off by subscribing</p>
+        </div>
+      </div>
+      <div class="box col-xl-2 col-md-5 col-sm-10">
+        <div class="icon">
+          <i class="fa-solid fa-envelope-open-text fa-2x"></i>
+        </div>
+        <div class="data">
+          <p class="title">Quality Support</p>
+          <p>Always online 24/7</p>
+        </div>
+      </div>
+      <div class="box col-xl-2 col-md-5 col-sm-10">
+        <div class="icon">
+          <i class="fa-solid fa-headphones-simple fa-2x"></i>
+        </div>
+        <div class="data">
+          <p class="title">Daily Offers</p>
+          <p>20% off by subscribing</p>
+        </div>
+      </div>
+    </div>
+    <div class="feature-book swiper mySwiper">
+      <div class="title">Featured Books</div>
+      <div class="swiper-wrapper"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Button trigger modal -->
+    <div class="modal-html"></div>
+    <!-- Modal -->
+
+    <div
+      class="offcanvas offcanvas-end offcanvas-cart"
+      tabindex="-1"
+      id="offcanvasRightcart"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">
+          <img src="images/black-logo.svg" alt="" />
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="cart">
+          <table class="table table-striped">
+            <thead>
+              <th colspan="3">Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>SubTotal</th>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <div class="final-total"></div>
+        </div>
+      </div>
+    </div>
+    <div class="success-add-cart">
+      <i class="fa-solid fa-check-double"></i> Added Successfully
+    </div>
+    <div class="category">
+      <div class="title">Top Categories Book</div>
+      <div class="swiper mySwiper swiper-category">
+        <div class="swiper-wrapper"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="offer row">
+      <div class="book col-xl-4">
+        <img src="images/book-shape.png" alt="" />
+      </div>
+      <div class="data col-xl-4 col-md-12">
+        <p>Get 25% discount in all kind of super Selling</p>
+        <div class="btn">Shop Now <i class="fa-solid fa-arrow-right"></i></div>
+      </div>
+      <div class="girl col-xl-4">
+        <img src="images/girl-shape-2.png" alt="" />
+      </div>
+    </div>
+    <div class="rating">
+      <div class="boxs row">
+        <p class="section-title">Top Rating Books</p>
+      </div>
+    </div>
+    <div class="feedback">
+      <p class="title">What our client say</p>
+      <div class="swiper mySwiper swiper-feedback">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+                incidunt quasi maiores, error saepe temporibus consectetur?
+                Cupiditate aliquid voluptate esse odit est unde animi quidem
+                incidunt. Ipsum itaque vel labore!"
+              </p>
+              <div class="footer">
+                <div class="data">
+                  <img src="images/02.jpg" alt="" />
+                  <div class="info">
+                    <p class="name">Danial Russel</p>
+                    <p>Marketing Coordinator</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <img src="images/logo1.png" alt="" />
+              </div>
+              <img src="images/shape.svg" class="shape" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+                incidunt quasi maiores, error saepe temporibus consectetur?
+                Cupiditate aliquid voluptate esse odit est unde animi quidem
+                incidunt. Ipsum itaque vel labore!"
+              </p>
+              <div class="footer">
+                <div class="data">
+                  <img src="images/06.jpg" alt="" />
+                  <div class="info">
+                    <p class="name">Danial Russel</p>
+                    <p>Marketing Coordinator</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <img src="images/logo1.png" alt="" />
+              </div>
+              <img src="images/shape.svg" class="shape" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+                incidunt quasi maiores, error saepe temporibus consectetur?
+                Cupiditate aliquid voluptate esse odit est unde animi quidem
+                incidunt. Ipsum itaque vel labore!"
+              </p>
+              <div class="footer">
+                <div class="data">
+                  <img src="images/01.jpg" alt="" />
+                  <div class="info">
+                    <p class="name">Danial Russel</p>
+                    <p>Marketing Coordinator</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <img src="images/logo2.png" alt="" />
+              </div>
+              <img src="images/shape.svg" class="shape" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+                incidunt quasi maiores, error saepe temporibus consectetur?
+                Cupiditate aliquid voluptate esse odit est unde animi quidem
+                incidunt. Ipsum itaque vel labore!"
+              </p>
+              <div class="footer">
+                <div class="data">
+                  <img src="images/05.jpg" alt="" />
+                  <div class="info">
+                    <p class="name">Danial Russel</p>
+                    <p>Marketing Coordinator</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <img src="images/logo1.png" alt="" />
+              </div>
+              <img src="images/shape.svg" class="shape" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+                incidunt quasi maiores, error saepe temporibus consectetur?
+                Cupiditate aliquid voluptate esse odit est unde animi quidem
+                incidunt. Ipsum itaque vel labore!"
+              </p>
+              <div class="footer">
+                <div class="data">
+                  <img src="images/04.jpg" alt="" />
+                  <div class="info">
+                    <p class="name">Danial Russel</p>
+                    <p>Marketing Coordinator</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <img src="images/logo2.png" alt="" />
+              </div>
+              <img src="images/shape.svg" class="shape" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+                incidunt quasi maiores, error saepe temporibus consectetur?
+                Cupiditate aliquid voluptate esse odit est unde animi quidem
+                incidunt. Ipsum itaque vel labore!"
+              </p>
+              <div class="footer">
+                <div class="data">
+                  <img src="images/03.jpg" alt="" />
+                  <div class="info">
+                    <p class="name">Danial Russel</p>
+                    <p>Marketing Coordinator</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <img src="images/logo1.png" alt="" />
+              </div>
+              <img src="images/shape.svg" class="shape" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+                incidunt quasi maiores, error saepe temporibus consectetur?
+                Cupiditate aliquid voluptate esse odit est unde animi quidem
+                incidunt. Ipsum itaque vel labore!"
+              </p>
+              <div class="footer">
+                <div class="data">
+                  <img src="images/02.jpg" alt="" />
+                  <div class="info">
+                    <p class="name">Danial Russel</p>
+                    <p>Marketing Coordinator</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <img src="images/logo2.png" alt="" />
+              </div>
+              <img src="images/shape.svg" class="shape" alt="" />
+            </div>
+          </div>
+
+          <div class="autoplay-progress">
+            <svg viewBox="0 0 0 0">
+              <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="author">
+      <div class="title">
+        <p class="name">Featured Author</p>
+        <p>
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. <br />
+          Donec at nulla nulla. Duis posuere ex lacus
+        </p>
+      </div>
+      <div class="swiper mySwiper swiper-author">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="person">
+              <div class="image">
+                <img src="images/05.jpg" alt="" />
+                <img src="images/shape-img.png" alt="" />
+              </div>
+              <div class="data-padding">
+                <div class="data">
+                  <p class="name">Kawsar Ahmed</p>
+                  <p>05 Published Books</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="person">
+              <div class="image">
+                <img src="images/01.jpg" alt="" />
+                <img src="images/shape-img.png" alt="" />
+              </div>
+              <div class="data-padding">
+                <div class="data">
+                  <p class="name">Kawsar Ahmed</p>
+                  <p>05 Published Books</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="person">
+              <div class="image">
+                <img src="images/06.jpg" alt="" />
+                <img src="images/shape-img.png" alt="" />
+              </div>
+              <div class="data-padding">
+                <div class="data">
+                  <p class="name">Kawsar Ahmed</p>
+                  <p>05 Published Books</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="person">
+              <div class="image">
+                <img src="images/05.jpg" alt="" />
+                <img src="images/shape-img.png" alt="" />
+              </div>
+              <div class="data-padding">
+                <div class="data">
+                  <p class="name">Kawsar Ahmed</p>
+                  <p>05 Published Books</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="person">
+              <div class="image">
+                <img src="images/04.jpg" alt="" />
+                <img src="images/shape-img.png" alt="" />
+              </div>
+              <div class="data-padding">
+                <div class="data">
+                  <p class="name">Kawsar Ahmed</p>
+                  <p>05 Published Books</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="person">
+              <div class="image">
+                <img src="images/03.jpg" alt="" />
+                <img src="images/shape-img.png" alt="" />
+              </div>
+              <div class="data-padding">
+                <div class="data">
+                  <p class="name">Kawsar Ahmed</p>
+                  <p>05 Published Books</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="person">
+              <div class="image">
+                <img src="images/02.jpg" alt="" />
+                <img src="images/shape-img.png" alt="" />
+              </div>
+              <div class="data-padding">
+                <div class="data">
+                  <p class="name">Kawsar Ahmed</p>
+                  <p>05 Published Books</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="autoplay-progress">
+            <svg viewBox="0 0 0 0">
+              <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="news">
+      <div class="title">
+        <p class="name">Our Latest News</p>
+        <p>
+          Interdum et malesuada fames ac ante ipsum primis in faucibus.<br />
+          Donec at nulla nulla. Duis posuere ex lacus
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="image">
+            <img src="images/10.jpg" alt="" />
+          </div>
+          <div class="info">
+            <div class="date">
+              <span>
+                <i class="fa-solid fa-calendar-days"></i> feb 10, 2024
+              </span>
+              <span> <i class="fa-solid fa-user"></i> By Admin </span>
+            </div>
+            <p class="name">Montes suspendisse massa curae malesuada</p>
+            <p>Read More <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="images/11.jpg" alt="" />
+          </div>
+          <div class="info">
+            <div class="date">
+              <span>
+                <i class="fa-solid fa-calendar-days"></i> feb 10, 2024
+              </span>
+              <span> <i class="fa-solid fa-user"></i> By Admin </span>
+            </div>
+            <p class="name">Montes suspendisse massa curae malesuada</p>
+            <p>Read More <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="images/12.jpg" alt="" />
+          </div>
+          <div class="info">
+            <div class="date">
+              <span>
+                <i class="fa-solid fa-calendar-days"></i> feb 10, 2024
+              </span>
+              <span> <i class="fa-solid fa-user"></i> By Admin </span>
+            </div>
+            <p class="name">Montes suspendisse massa curae malesuada</p>
+            <p>Read More <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="images/09.jpg" alt="" />
+          </div>
+          <div class="info">
+            <div class="date">
+              <span>
+                <i class="fa-solid fa-calendar-days"></i> feb 10, 2024
+              </span>
+              <span> <i class="fa-solid fa-user"></i> By Admin </span>
+            </div>
+            <p class="name">Montes suspendisse massa curae malesuada</p>
+            <p>Read More <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="contact row">
+        <div class="box col-xl-3 col-md-5 col-sm-10">
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="info">
+            <p>Call Us</p>
+            <p>+201-060-661-936</p>
+          </div>
+        </div>
+        <div class="box col-xl-3 col-md-5 col-sm-10">
+          <div class="icon">
+            <i class="fa-solid fa-envelope-open-text"></i>
+          </div>
+          <div class="info">
+            <p>Make a Quote</p>
+            <p>rawanselima2@gmail.com</p>
+          </div>
+        </div>
+        <div class="box col-xl-3 col-md-5 col-sm-10">
+          <div class="icon">
+            <i class="fa-regular fa-hourglass-half"></i>
+          </div>
+          <div class="info">
+            <p>Opening Hour</p>
+            <p>Sunday - Fri: 9 aM - 6 pM</p>
+          </div>
+        </div>
+        <div class="box col-xl-3 col-md-5 col-sm-10">
+          <div class="icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="info">
+            <p>Location</p>
+            <p>4517 Washington ave.</p>
+          </div>
+        </div>
+      </div>
+      <div class="content row">
+        <div class="box col-xl-3 col-md-5 col-sm-10">
+          <img src="images/white-logo.svg" alt="" />
+          <p>
+            Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a
+            lacinia curabitur lacinia mollis
+          </p>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+        <div class="box col-xl-3 col-md-5 col-sm-10">
+          <p class="title">Customer Support</p>
+          <ul>
+            <li><i class="fa-solid fa-angles-right"></i> Store List</li>
+            <li><i class="fa-solid fa-angles-right"></i> Openning Hours</li>
+            <li><i class="fa-solid fa-angles-right"></i> Contact Us</li>
+            <li><i class="fa-solid fa-angles-right"></i> Return Policy</li>
+          </ul>
+        </div>
+        <div class="box col-xl-3 col-md-5 col-sm-10">
+          <p class="title">Categories</p>
+          <ul>
+            <li><i class="fa-solid fa-angles-right"></i> Novel Books</li>
+            <li><i class="fa-solid fa-angles-right"></i> Poetry Books</li>
+            <li><i class="fa-solid fa-angles-right"></i> Politicis Books</li>
+            <li><i class="fa-solid fa-angles-right"></i> History Books</li>
+          </ul>
+        </div>
+        <div class="box col-xl-3 col-md-5 col-sm-10">
+          <p class="title">Newsletter</p>
+          <p>Sign up to searing weekly newsletter to get the latest updates.</p>
+          <div class="input-group mb-3">
+            <input
+              type="email"
+              class="form-control"
+              aria-label="Amount (to the nearest dollar)"
+              placeholder="Enter Your Email"
+            />
+            <span class="input-group-text"
+              ><i class="fa-solid fa-paper-plane"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>© All Copyright 2024 by Rawan Selima</p>
+      <div class="brand">
+        <img src="images/payoneer (1).png" alt="" />
+        <img src="images/mastercard.png" alt="" />
+        <img src="images/affirm.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Quotes</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="quote">
+              <div class="content">
+                <p>
+                  <i
+                    class="fa-solid fa-quote-left"
+                    style="color: var(--lightblue)"
+                  ></i
+                  >The Bay of Bengal is hit frequently by cyclones. The months
+                  of November and May, in particular, are dangerous in this
+                  regard.
+                  <i
+                    class="fa-solid fa-quote-left"
+                    style="transform: rotateY(180deg); color: var(--lightblue)"
+                  ></i>
+                </p>
+                <p>"Muhammad Ali"</p>
+              </div>
+              <div class="btn generate-quote">Generate Quote</div>
+              <div class="btn auto-generate">Auto Generate</div>
+              <div class="btn stop-generate">Stop Generate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-btn">
+      <i class="fa-solid fa-forward"></i>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9b4902719c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="books.js"></script>
+  </body>
+</html>
